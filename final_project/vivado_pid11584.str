@@ -1,0 +1,2490 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 11584
+
+Current time: 	7/11/24 5:44:52 PM EEST
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	aliya
+User home directory: C:/Users/aliya
+User working directory: C:/Users/aliya/OneDrive/Masats/final_project
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/aliya/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/aliya/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	217 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 486 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\aliya\OneDrive\Masats\final_project\final_project.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/aliya/OneDrive/Masats/final_project/final_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 37 MB (+36341kb) [00:00:04]
+// [Engine Memory]: 430 MB (+299899kb) [00:00:04]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+27894kb) [00:00:04]
+// [Engine Memory]: 479 MB (+27830kb) [00:00:05]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Project name: final_project; location: C:/Users/aliya/OneDrive/Masats/final_project; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 33 MB. Current time: 7/11/24 5:44:54 PM EEST
+// [Engine Memory]: 507 MB (+4977kb) [00:00:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_project - Behavioral (final_project.vhd)]", 1, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_project - Behavioral (final_project.vhd)]", 1, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [Engine Memory]: 552 MB (+19889kb) [00:00:09]
+selectCodeEditor("final_project.vhd", 287, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 124 seconds
+selectCodeEditor("final_project.vhd", 120, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("final_project.vhd", 121, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("final_project.vhd", 285, 322); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("final_project.vhd", 245, 321); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 230, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("final_project.vhd", 193, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 193, 351, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 302, 239); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 305, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("final_project.vhd", 128, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 1, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 219, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project.vhd", 23, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 143, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project.vhd", 129, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 245, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("final_project.vhd", 267, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 69 MB (+677kb) [00:07:01]
+selectCodeEditor("final_project.vhd", 520, 255); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 542, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project.vhd", 136, 319); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("final_project.vhd", 84, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project.vhd", 112, 310); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 107, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 107, 312, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 108, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 126, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 133, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 108, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 73 MB (+585kb) [00:08:18]
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project.vhd", 188, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 188, 382, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 252, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 252, 385, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 43 seconds
+selectCodeEditor("final_project.vhd", 261, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("final_project.vhd", 168, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 325, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 82 MB (+4780kb) [00:09:50]
+// Elapsed time: 66 seconds
+selectCodeEditor("final_project.vhd", 282, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 284, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("final_project.vhd", 74, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 138, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 79, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 81, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 135, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 139, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 282 seconds
+selectCodeEditor("final_project.vhd", 84, 330); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("final_project.vhd", 302, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project.vhd", 239, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 240, 334, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 244, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 312, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 79, 329, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 126, 342); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 197, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 225, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 262, 375); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 240, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 244, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 193, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 224, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 328, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 60, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 87 MB (+1433kb) [00:18:07]
+// Elapsed time: 37 seconds
+selectCodeEditor("final_project.vhd", 111, 500); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 154, 492); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 135, 506); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("final_project.vhd", 94, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 72, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 278, 310); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 152, 498); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 110, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 244, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 194, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 296, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 301, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor("final_project.vhd", 137, 501); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 110, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 81, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 81, 379, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 94, 394); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 84, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 80, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 83, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 183, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 183, 386, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 185, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 185, 383, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 187, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 187, 383, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 187, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 189, 382, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 104, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 208, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 128, 421); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 134, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 237, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 159, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 265, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 113, 501); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project.vhd", 123, 271); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 22, 146, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("final_project.vhd", 77, 498); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 109, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 83, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 186, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 111, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 216, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 139, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 244, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 168, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 275, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 420, 393); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("final_project.vhd", 235, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("final_project.vhd", 237, 293); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 255, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project.vhd", 129, 528); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 85 seconds
+selectCodeEditor("final_project.vhd", 243, 516); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 297, 515); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 92 MB (+28kb) [00:25:44]
+selectCodeEditor("final_project.vhd", 209, 518); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 521); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 103 seconds
+selectCodeEditor("final_project.vhd", 204, 485); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 204, 485, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 211, 488); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 209, 488, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 156, 505); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("final_project.vhd", 322, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 337, 504); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 432, 483); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 321, 484); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("final_project.vhd", 505, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a:JButton (C:JPanel, b:g)
+// Elapsed time: 11 seconds
+setFileChooser("C:/Users/aliya/Downloads/Basys-3-Master.zip");
+selectButton("BACK", "< Geri"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// Elapsed time: 18 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, b:g)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "Basys-3-Master.zip ; C:\\Users\\aliya\\Downloads", 0, "Basys-3-Master.zip", 0); // s:r (JViewport:JComponent, b:g)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, b:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a:JButton (C:JPanel, b:g)
+setFileChooser("C:/Users/aliya/Downloads/Basys-3-Master/Basys-3-Master.xdc");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 51 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/Users/aliya/Downloads/Basys-3-Master/Basys-3-Master.xdc 
+// [GUI Memory]: 99 MB (+2441kb) [00:29:37]
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 8, 107); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 44 MB. Current time: 7/11/24 6:14:57 PM EEST
+// [Engine Memory]: 580 MB (+991kb) [00:30:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 65 MB. Current time: 7/11/24 6:15:17 PM EEST
+// Elapsed time: 52 seconds
+selectCodeEditor("Basys-3-Master.xdc", 567, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 9, 204, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 193, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 511, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 511, 211, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 518, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 213, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 518, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 228, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 516, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 516, 244, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 525, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 530, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 531, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Basys-3-Master.xdc", 568, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 28, 227, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 535, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 524, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 542, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 544, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 537, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 538, 241); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 539, 261); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 529, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 515, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 515, 226, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 514, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 514, 244, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 517, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 517, 245, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 517, 261); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 517, 261, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 991 seconds
+selectCodeEditor("Basys-3-Master.xdc", 9, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 518, 281, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Basys-3-Master.xdc", 572, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 34, 211, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 548, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 551, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 553, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 553, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Basys-3-Master.xdc", 550, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("final_project.vhd", 90, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 90, 234, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 573, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 71, 228, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 514, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 520, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 520, 213, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 525, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 525, 232, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 524, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 524, 247, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 522, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 522, 264, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 492, 304); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 47 MB. Current time: 7/11/24 6:45:19 PM EEST
+// Elapsed time: 738 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (C:JPanel, b:g)
+// F:q (b:g): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bS:e (JPanel:JComponent, F:q)
+// Elapsed time: 15 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "final_project_tb"); // ak:JTextField (JPanel:JComponent, F:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:q)
+// Tcl Command: 'file mkdir C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F:q (b:g)
+// Tcl Message: file mkdir C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sim_1/new/final_project_tb.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sim_1/new/final_project_tb.vhd 
+// I:q (cd:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:q)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I:q (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6, true); // y:i (D:JPanel, cd:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_project_tb - Behavioral (final_project_tb.vhd)]", 8, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_project_tb - Behavioral (final_project_tb.vhd)]", 8, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_project_tb - Behavioral (final_project_tb.vhd)]", 8, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_project_tb - Behavioral (final_project_tb.vhd)]", 8, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// Elapsed time: 36 seconds
+closeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+closeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 250, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 238, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 130 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 314, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 17, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 55, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 537 seconds
+selectCodeEditor("final_project_tb.vhd", 341, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 328, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 82, 471); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 1, 427); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 99, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 267, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 55, 453); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 110, 454); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 77, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 56, 468); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 101, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 101, 467, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 52, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 485); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 485, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 51, 503); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 102, 500); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 102, 500, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 53, 520); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 110, 519); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 110, 519, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 55, 533); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 118, 535); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 118, 535, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 53, 551); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 137, 557); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 137, 557, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 279, 551); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 88, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 68, 434); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 71, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 452); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 75, 464); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 100, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 105, 470); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 77, 479); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 103, 487); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 75, 499); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 500); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 100, 520); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 91, 540); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 82, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 81, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 78, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 85, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 79, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 83, 369, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 84, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 85, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 83, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 91, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 105, 429); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 127, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 130, 439); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project_tb.vhd", 83, 116); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 77, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 78, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 74, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 76, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 82, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 210); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 105, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 453, 168); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("final_project_tb.vhd", 135, 486); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 414, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 279 seconds
+selectCodeEditor("final_project_tb.vhd", 229, 423); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 229, 423, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 165, 519); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 123, 466); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 230, 449); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 156, 505); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 166, 503); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 189, 501); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 189, 501, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 95, 519); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 519, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 216, 499); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("final_project_tb.vhd", 85, 515); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 82, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 49 MB. Current time: 7/11/24 7:15:20 PM EEST
+// Elapsed time: 796 seconds
+selectCodeEditor("final_project_tb.vhd", 81, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 148, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 148, 418, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 192, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 192, 418, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 113, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 113, 436, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 140, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 157, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 157, 431, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 214, 434); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 214, 434, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 84, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 143, 454); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 143, 454, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 210, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 210, 446, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project_tb.vhd", 259, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 128, 496); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 145, 478); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("final_project_tb.vhd", 16, 489); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("final_project_tb.vhd", 54, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 54, 352, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project_tb.vhd", 147, 376); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 155, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 76, 390); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 159, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 38, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 68, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 47, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 47, 349, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 102, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 65, 370); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 65, 370, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project_tb.vhd", 58, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 58, 401, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 60, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 42, 351, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project_tb.vhd", 40, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 43, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 95, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 25, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 21, 420); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 26, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 63, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 81, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project_tb.vhd", 147, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 142, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 52, 411); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 54, 420); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 148, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 31, 401, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project_tb.vhd", 148, 453); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 39, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 32, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 69, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 102, 452); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 105, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 170, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 146, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 18, 356, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project_tb.vhd", 165, 389); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 145, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 140, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 70, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 70, 243, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 76, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 76, 247, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 75, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 41, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 75, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 42, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 73, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 73, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 75, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 40, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 68, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 69, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 65, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 67, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 125, 402); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor("final_project_tb.vhd", 143, 476); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("final_project.vhd", 300, 402); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // e:JComboBox (am:JPanel, f:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// 'cn' command handler elapsed time: 9 seconds
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul 11 19:30:51 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 19:30:51 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 176 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 505 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 22 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near :. [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sim_1/new/final_project_tb.vhd:87]. ]", 2); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 117, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 127, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 121, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 118, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 137, 490); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 127, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 133, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 147, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 19:43:29 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("final_project.vhd", 239, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_project.vhd", 244, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 244, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 105 MB (+1110kb) [02:00:20]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 4 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 19:45:13 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 19:45:13 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 43 MB. Current time: 7/11/24 7:45:20 PM EEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 50 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[0] has multiple drivers: parkfree_OBUF[0]_inst_i_1/O, count_reg[0]/Q.. ]", 4, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[0] has multiple drivers: parkfree_OBUF[0]_inst_i_1/O, count_reg[0]/Q.. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("final_project.vhd", 283, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 283, 264, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 293, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 293, 276, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 75 seconds
+selectCodeEditor("final_project.vhd", 221, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 9, 413, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 19:48:29 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 19:48:29 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 53 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[0] has multiple drivers: parkfree_OBUF[0]_inst_i_1/O, count_reg[0]/Q.. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[0] has multiple drivers: parkfree_OBUF[0]_inst_i_1/O, count_reg[0]/Q.. , [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[1] has multiple drivers: parkfree_OBUF[1]_inst_i_1/O, count_reg[1]/Q.. ]", 5, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 30 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 299 seconds
+selectCodeEditor("final_project.vhd", 209, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 44, 341, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 19:55:46 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 19:55:46 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 101 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 43 MB. Current time: 7/11/24 7:57:31 PM EEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 702 MB. GUI used memory: 42 MB. Current time: 7/11/24 7:57:33 PM EEST
+// [Engine Memory]: 707 MB (+102475kb) [02:12:46]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 797 MB (+56848kb) [02:12:47]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2016.4 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/final_project.xdc] Finished Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/final_project.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1065.590 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1065.590 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1170.945 ; gain = 298.578 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// Device view-level: 0,0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dH' command handler elapsed time: 9 seconds
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+// [Engine Memory]: 837 MB (+742kb) [02:12:52]
+// [Engine Memory]: 880 MB (+893kb) [02:12:58]
+// Elapsed time: 10 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cd:JFrame)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// y:aO (cd:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// [Engine Memory]: 1,210 MB (+299774kb) [02:13:02]
+// TclEventType: DESIGN_CLOSE
+// RouteApi::initDelayMediator elapsed time: 14.1s
+// [GUI Memory]: 111 MB (+762kb) [02:13:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 66 MB. Current time: 7/11/24 7:57:50 PM EEST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// RouteApi: Init Delay Mediator Swing Worker Join Forever
+// Engine heap size: 1,237 MB. GUI used memory: 67 MB. Current time: 7/11/24 7:57:50 PM EEST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // y:aO (cd:JFrame)
+selectCodeEditor("final_project.vhd", 12, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("final_project_tb.vhd", 141, 426); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 39, 147, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 133, 563); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project_tb.vhd", 197, 529); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project_tb.vhd", 186, 235); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 171, 512); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 12, 97); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 0, 106); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 123, 571); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 82, 563); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 248, 305, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // T:JideMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project_tb.vhd", 304, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 107, 426); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("final_project_tb.vhd", 327, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project_tb.vhd", 292, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project_tb.vhd", 109, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 3, 128, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 359, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 56, 241); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 349, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 142, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("final_project_tb.vhd", 31, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project_tb.vhd", 64, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 310, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project_tb.vhd", 357, 396); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 28, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("final_project_tb.vhd", 68, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("final_project_tb.vhd", 89, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 252, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 234, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("final_project_tb.vhd", 25, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 94, 308); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("final_project_tb.vhd", 170, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 57, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 78 seconds
+selectCodeEditor("final_project_tb.vhd", 255, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 102 seconds
+selectCodeEditor("final_project_tb.vhd", 92, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 57, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 119, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("final_project_tb.vhd", 113, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 26, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project_tb.vhd", 148, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 196, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 260, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 257, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 258, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 273, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 263, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 258, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 272, 423); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 252, 443); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 272, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 258, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 256, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 255, 464); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 259, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 272, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 257, 504); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 121 MB (+4730kb) [02:25:07]
+typeControlKey((HResource) null, "final_project_tb.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 137, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 196, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 85, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 85, 234, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 92, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 94, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 87, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 87, 265, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 90, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 262, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project_tb.vhd", 88, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 91, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 89, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 88, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 96, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 87, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 92, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 470); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 89, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 89, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 88, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 166, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 90, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 164, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 167, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 88, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 166, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 386, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 269, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 292, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project_tb.vhd", 131, 429); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 188, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 136, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 131, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 291, 491); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 13, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 13, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 5 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:12:07 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:12:07 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 59 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project.vhd", 25, 453); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 23, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 294, 501); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 31, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:13:40 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:13:40 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("final_project.vhd", 149, 455); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 261, 506); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 127, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 159, 452); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 114, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:15:04 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:15:04 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project.vhd", 325, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 173, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 68 seconds
+selectCodeEditor("final_project.vhd", 203, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 33, 470); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 129 seconds
+selectCodeEditor("final_project.vhd", 204, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 204, 314, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:19:30 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:19:30 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// [GUI Memory]: 128 MB (+1275kb) [02:34:49]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+// Elapsed time: 12 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net parkfree_OBUF[0] has multiple drivers: parkfree_OBUF[0]_inst_i_1/O, count_reg[0]/Q.. ]", 4); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 254, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project.vhd", 125, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 148, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 199, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 199, 314, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 49 seconds
+selectCodeEditor("final_project.vhd", 78, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project.vhd", 139, 327); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 221, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("final_project.vhd", 215, 434); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:22:44 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:22:44 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 160 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 79 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 52 MB. Current time: 7/11/24 8:27:52 PM EEST
+// Elapsed time: 68 seconds
+selectCodeEditor("final_project.vhd", 77, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 264, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("final_project.vhd", 266, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 266, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 102, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 288, 266); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 131, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 318, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 159, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 341, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:28:41 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:28:41 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 272, 376); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 19 seconds
+selectCodeEditor("final_project.vhd", 355, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 217, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[0] with 1st driver pin 'i_3/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 7, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[1] with 2nd driver pin 'i_2/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 6, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[2] with 2nd driver pin 'i_1/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[2] with 1st driver pin 'count_reg[2]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;58;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 2nd driver pin 'i_0/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;58;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[0] with 1st driver pin 'i_3/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 7, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[0] with 2nd driver pin 'count_reg[0]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. ]", 8, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;58;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[0] with 1st driver pin 'i_3/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 7, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:58]. , [Synth 8-3352] multi-driven net parkfree_OBUF[0] with 1st driver pin 'i_3/O' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:64]. ]", 7, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\aliya\OneDrive\Masats\final_project\final_project.srcs\sources_1\new\final_project.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 192 seconds
+selectCodeEditor("final_project.vhd", 248, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 253, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 218 seconds
+selectCodeEditor("final_project.vhd", 282, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 262, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 266, 310); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_project.vhd", 263, 188); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 140 seconds
+selectCodeEditor("final_project.vhd", 97, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, "Add or create design sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, b:g)
+// Elapsed time: 19 seconds
+setFileChooser("C:/Users/aliya/OneDrive/Masaüstü/csd/CSD - zeynep/hw3/hw3.srcs/sources_1/imports/Lab4 2/freq_div.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, b:g)
+// Elapsed time: 19 seconds
+setFileChooser("C:/Users/aliya/OneDrive/Masaüstü/csd/CSD - zeynep/hw3/hw3.srcs/sources_1/imports/FSM_LAB/FSM_LAB_top.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 53 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {{C:/Users/aliya/OneDrive/Masaüstü/csd/CSD - zeynep/hw3/hw3.srcs/sources_1/imports/Lab4 2/freq_div.vhd} {C:/Users/aliya/OneDrive/Masaüstü/csd/CSD - zeynep/hw3/hw3.srcs/sources_1/imports/FSM_LAB/FSM_LAB_top.vhd}} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), hw3_unit - hw3 - Behavioral]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), hw3_unit - hw3 - Behavioral]", 3, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), freq_div_unit - freq_div - Behavioral (freq_div.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_project - Behavioral (final_project.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), freq_div_unit - freq_div - Behavioral (freq_div.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("FSM_LAB_top.vhd", 119, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 119, 264, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 47, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_LAB_top.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 62, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_LAB_top.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 147, 199, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_LAB_top.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 237, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "FSM_LAB_top.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "FSM_LAB_top.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 102, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 323, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_LAB_top.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 228, 256); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "FSM_LAB_top.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 1, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("FSM_LAB_top.vhd", 119, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 119, 244, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 154, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 154, 245, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 126, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 126, 317, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 167, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 167, 313, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 105, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 105, 281, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 144, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 144, 279, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 108, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 108, 303, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 158, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 158, 296, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 255, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 57, 344, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("FSM_LAB_top.vhd", 98, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 107, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 107, 314, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 172, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 172, 335, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 172, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 95, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 95, 345, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FSM_LAB_top.vhd", 176, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 176, 347, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 95, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 95, 369, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("FSM_LAB_top.vhd", 177, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 188, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("FSM_LAB_top.vhd", 188, 359, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 22); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:44:59 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:44:59 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 53 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project.vhd", 212, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 2, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 119, 426); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 35, 227, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 103, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 131, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 15, 240, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 153, 219); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 192, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 46, 249, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 118, 288); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 75, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("final_project.vhd", 104, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 113, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("final_project.vhd", 129, 266); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_project.vhd", 167, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:48:16 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:48:16 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 275 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'final_project_unit/count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:57]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("final_project.vhd", 208, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 208, 296, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 158, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 158, 281, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 243, 294); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 110, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("final_project.vhd", 140, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 140, 177, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 87, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 87, 244, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 144, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 144, 248, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:54:17 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:54:17 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 136 MB (+1328kb) [03:10:15]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 107 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 61 MB. Current time: 7/11/24 8:56:06 PM EEST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Finished Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1577.512 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1577.512 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Device view-level: 0,0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dH' command handler elapsed time: 4 seconds
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cd:JFrame)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// y:aO (cd:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 80 MB. Current time: 7/11/24 8:56:14 PM EEST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,237 MB. GUI used memory: 80 MB. Current time: 7/11/24 8:56:14 PM EEST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // y:aO (cd:JFrame)
+selectCodeEditor("final_project.vhd", 151, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 51, 245, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 126, 437); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 178, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 38, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 4, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 110, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 49, 424); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 134, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 64, 287, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 22); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 20:57:06 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 20:57:06 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 120 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectCodeEditor("final_project.vhd", 1, 243); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 203, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 3, 243, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 605, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 224, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("final_project.vhd", 296, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project.vhd", 141, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 227, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 8 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:00:22 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:00:22 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectCodeEditor("final_project.vhd", 131, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 189, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 62, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:01:36 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:01:36 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 52 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectCodeEditor("final_project.vhd", 16, 361); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 237, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project.vhd", 337, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 16, 296, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 194, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 56, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 176, 361); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 297, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 179 seconds
+selectCodeEditor("final_project.vhd", 294, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project.vhd", 394, 286); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 148, 286); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 152, 283, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 577, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 32, 175, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 184, 266); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 21, 267, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+selectCodeEditor("final_project.vhd", 265, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 265, 299, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 263, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 263, 301, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 222, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 222, 297, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:07:11 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:07:11 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3352] multi-driven net parkfree_OBUF[3] with 1st driver pin 'final_project_unit/count_reg[3]/Q' [C:/Users/aliya/OneDrive/Masats/final_project/final_project.srcs/sources_1/new/final_project.vhd:56]. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_project.vhd", 145, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 145, 182, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 91, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 11, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 181, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 12, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 116, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 197, 260); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 98, 225); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 86, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:09:17 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:09:17 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 52 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectCodeEditor("final_project.vhd", 220, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 63, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 89 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:11:58 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:11:58 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 112 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectCodeEditor("final_project.vhd", 259, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 259, 246, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 254, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 254, 348, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+selectCodeEditor("final_project.vhd", 318, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 179, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 263, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:14:27 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:14:27 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 62 MB. Current time: 7/11/24 9:26:16 PM EEST
+// Elapsed time: 792 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 59 MB. Current time: 7/11/24 9:27:40 PM EEST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Finished Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1601.293 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1601.293 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Device view-level: 0,0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dH' command handler elapsed time: 3 seconds
+// aH:aO (cd:JFrame): Feedback Request: addNotify
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_REMIND_ME_LATER, "Remind me Later"); // a:JButton (JPanel:JComponent, aH:aO)
+dismissDialog("Feedback Request"); // aH:aO (cd:JFrame)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cd:JFrame)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// y:aO (cd:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 80 MB. Current time: 7/11/24 9:27:52 PM EEST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,237 MB. GUI used memory: 81 MB. Current time: 7/11/24 9:27:53 PM EEST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // y:aO (cd:JFrame)
+// Elapsed time: 146 seconds
+selectCodeEditor("final_project.vhd", 4, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_project.vhd", 176, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("final_project.vhd", 100, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 167, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 113, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("final_project.vhd", 97, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("final_project.vhd", 151, 256); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 153, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 131, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 121, 237); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 120, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("final_project.vhd", 241, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("final_project.vhd", 248, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("final_project.vhd", 299, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 286 seconds
+selectCodeEditor("final_project.vhd", 335, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 83, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 82, 175); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 97, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 66, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 72, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 80, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 298, 245); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("final_project.vhd", 177, 59); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 69, 47); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("final_project.vhd", 227, 82); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 279 seconds
+selectCodeEditor("final_project.vhd", 267, 158); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 267, 158, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("final_project.vhd", 296, 154); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 301, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 278, 66); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 264, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 419, 100); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 393, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("final_project.vhd", 229, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 169 seconds
+selectCodeEditor("final_project.vhd", 279, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 192, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 193, 72); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 280, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 346, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project.vhd", 337, 150); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 329, 143); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 418, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 279, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("final_project.vhd", 338, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 278, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("final_project.vhd", 340, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 278, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 325, 257); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 317, 241); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 276, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 282, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("final_project.vhd", 333, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 117, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 68, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("final_project.vhd", 131, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 129, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 147, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 153, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 145, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 152, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 138, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 137, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 150, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 150, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 154, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 140, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 144, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 152, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 132, 293); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 131, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 152, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 333, 434); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 202); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 331, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 327, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 316, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 322, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 319, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 327, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 315, 321); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 123, 128); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("final_project.vhd", 65, 408); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 124, 430); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 77, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 122, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 165, 394); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 238, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 236, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 236, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 237, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 241, 252); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 237, 269); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 239, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 240, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 239, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 239, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 191, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("final_project.vhd", 334, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 169, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 78); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 261); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 96); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 327, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("final_project.vhd", 327, 109); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 302, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 302, 297, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 296, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 296, 129, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 313); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 313, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 302, 142); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 302, 142, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 306, 335, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_project.vhd", 382, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 395, 358); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 380, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 422, 372); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 402, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 416, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 327, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 321, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("final_project.vhd", 305, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 326, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 282, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 284, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_project.vhd", 283, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 300, 395); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("final_project.vhd", 143, 311); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("final_project.vhd", 291, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 62 MB. Current time: 7/11/24 9:57:57 PM EEST
+selectCodeEditor("final_project.vhd", 351, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("final_project.vhd", 335, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Elapsed time: 78 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cn' command handler elapsed time: 79 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Jul 11 21:59:31 2024] Launched synth_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/synth_1/runme.log [Thu Jul 11 21:59:31 2024] Launched impl_1... Run output will be captured here: C:/Users/aliya/OneDrive/Masats/final_project/final_project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 317 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 52 MB. Current time: 7/11/24 10:04:50 PM EEST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Finished Parsing XDC File [C:/Users/aliya/OneDrive/Masats/final_project/.Xil/Vivado-11584-ibrahimselim/dcp/FSM_LAB_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1608.230 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1608.230 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// Device view-level: 0,0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dH' command handler elapsed time: 3 seconds
+// aH:aO (cd:JFrame): Feedback Request: addNotify
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a:JButton (JPanel:JComponent, aH:aO)
+dismissDialog("Feedback Request"); // aH:aO (cd:JFrame)
+selectButton("PAResourceTtoZ.TouchpointSurveyDialog_USE_TOOLS_OPTIONS_WINDOWS_BEHAVIOR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cd:JFrame)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// y:aO (cd:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 73 MB. Current time: 7/11/24 10:05:05 PM EEST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,237 MB. GUI used memory: 73 MB. Current time: 7/11/24 10:05:05 PM EEST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // y:aO (cd:JFrame)
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), final_project_unit - final_project - Behavioral (final_project.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project_tb.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("final_project_tb.vhd", 350, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "final_project_tb.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_project_tb - Behavioral (final_project_tb.vhd)]", 9, true); // y:i (D:JPanel, cd:JFrame) - Node
+// Elapsed time: 305 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd), freq_div_unit - freq_div - Behavioral (freq_div.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+// Elapsed time: 189 seconds
+selectCodeEditor("final_project_tb.vhd", 353, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_project.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM_LAB_top - Behavioral (FSM_LAB_top.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 594 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 565, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("Basys-3-Master.xdc", 517, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 563, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Basys-3-Master.xdc", 562, 343); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Basys-3-Master.xdc", 563, 323); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Basys-3-Master.xdc", 537, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 54 MB. Current time: 7/11/24 10:35:08 PM EEST
